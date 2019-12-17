@@ -1,0 +1,80 @@
+
+h1{
+    font-size:5rem;
+}
+
+
+.roboto{
+    font-family:'Roboto';
+    background-color: #ffffff;
+}
+
+.roboto h2{
+    font-style: oblique;
+    color: #666;
+}
+
+.Hind{
+    font-family:'Hind';
+    background-color: #050029;
+}
+
+.Hind h2{
+    font-style: oblique;
+    color: #FF6B01;
+}
+
+.roboto h1{
+    color: #666;
+}
+
+.Hind h1{
+    color: #FF6B01;
+}
+
+.roboto, .Hind {
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.Hind {
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+div a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+}
+
+@media (max-width:800px){
+    main{
+        flex-wrap: wrap;
+
+    }
+    .roboto, .Hind{
+        width: 100vw;
+        height: 70vw;
+    }
+    .roboto {
+        border-bottom: 1px solid gray;
+        border-right: none;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
